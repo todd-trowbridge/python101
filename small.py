@@ -65,7 +65,7 @@
 #   height -= 1
 
 # # 10
-# # allow user to customize height and width from
+# # allow user to customize height and width
 # width = int(input('width: '))
 # height = int(input('height: '))
 # symbol = '*'
