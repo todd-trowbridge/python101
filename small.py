@@ -47,7 +47,7 @@
 height = width = 5
 symbol = "* "
 
-# empty row for construction
+# empty row
 row = ""
 
 # construct first row
