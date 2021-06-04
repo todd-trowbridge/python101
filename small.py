@@ -42,51 +42,70 @@
 #   print(start)
 #   start += 1
 
-# # 9
-# height = width = 5
-# x = y = 0
-# row = ""
-# symbol = "*"
-# spacer = " "
-# while x < width:
-#   row += symbol + spacer
-#   x += 1
-# while y < height:
-#   print(row)
-#   y += 1
+# 9
+# hardcode height and width
+height = width = 5
+symbol = "* "
 
-# # 10
-# height = width = int(input('How big is the square? '))
-# x = y = 0
-# row = ""
-# symbol = "*"
-# spacer = " "
-# while x < width:
-#   row += symbol + spacer
-#   x += 1
-# while y < height:
-#   print(row)
-#   y += 1
+# empty row for construction
+row = ""
 
-# 10b
-# ask user for input
-height = int(input('height: ')) 
-width = int(input('width: '))
-symbol = str(input('symbol: '))
-spacer = str(input('spacer: '))
-
-# row of symbols
-row = ''
-
-# build first row of symbols with a trailing spacer
-while width > 1:
-  row += symbol + spacer
+# construct first row
+while width > 0:
+  # add a symbol to row
+  row += symbol
+  # subtract 1 from width
   width -= 1
 
-# add a symbol without a spacer to finish the row
-row += symbol
-
-# print a new row subtracting one from y until 0
+# print rows
 while height > 0:
+  # print a completed row
   print(row)
+  # subtract 1 from height
   height -= 1
+
+# # 10
+# # allow user to customize height and width from
+# width = int(input('width: '))
+# height = int(input('height: '))
+# symbol = '*'
+# spacer = ' '
+
+# # row of symbols
+# row = ''
+
+# # build first row of symbols with a trailing spacer
+# while width > 1:
+#   row += symbol + spacer
+#   width -= 1
+
+# # add a symbol without a spacer to finish the row
+# row += symbol
+
+# # print a new row subtracting one from y until 0
+# while height > 0:
+#   print(row)
+#   height -= 1
+
+# # 10 V2
+# # allow user to customize symbol and spacer in addition to height and width from
+# width = int(input('width: '))
+# height = int(input('height: '))
+# symbol = str(input('symbol: '))
+# spacer = str(input('spacer: '))
+
+# # row of symbols
+# row = ''
+
+# # build first row of symbols with a trailing spacer
+# while width > 1:
+#   row += symbol + spacer
+#   width -= 1
+
+# # add a symbol without a spacer to finish the row
+# row += symbol
+
+# # print a new row subtracting one from y until 0
+# while height > 0:
+#   print(row)
+#   height -= 1
