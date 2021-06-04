@@ -88,7 +88,7 @@
 #   height -= 1
 
 # # 10 V2
-# # allow user to customize symbol and spacer in addition to height and width from
+# # allow user to customize symbol and spacer in addition to height and width
 # width = int(input('width: '))
 # height = int(input('height: '))
 # symbol = str(input('symbol: '))
