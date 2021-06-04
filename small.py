@@ -42,27 +42,27 @@
 #   print(start)
 #   start += 1
 
-# 9
-# hardcode height and width
-height = width = 5
-symbol = "* "
+# # 9
+# # hardcode height and width
+# height = width = 5
+# symbol = "* "
 
-# empty row
-row = ""
+# # empty row
+# row = ""
 
-# construct first row
-while width > 0:
-  # add a symbol to row
-  row += symbol
-  # subtract 1 from width
-  width -= 1
+# # construct first row
+# while width > 0:
+#   # add a symbol to row
+#   row += symbol
+#   # subtract 1 from width
+#   width -= 1
 
-# print rows
-while height > 0:
-  # print a completed row
-  print(row)
-  # subtract 1 from height
-  height -= 1
+# # print rows
+# while height > 0:
+#   # print a completed row
+#   print(row)
+#   # subtract 1 from height
+#   height -= 1
 
 # # 10
 # # allow user to customize height and width from
